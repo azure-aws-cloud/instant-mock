@@ -1,5 +1,7 @@
 # Build and Push to npm registry
 
+Change the application version in package.json and build + push to npm repo
+
 npm login 
 
 npm run build 
