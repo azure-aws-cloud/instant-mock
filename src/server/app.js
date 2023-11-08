@@ -39,6 +39,9 @@ app.use((req, res) => {
   res.status(404).send();
 });
 
+app.use(cors());
+
+
 const io = new SocketIO(
   serverSettings.socket.port,
   { host: serverSettings.socket.host }
@@ -51,4 +54,4 @@ io.on('connection', (socket) => {
   });
 });
 
-app.listen(serverSettings.http.port, serverSettings.http.host);
+app.listen(serverSettings.http.port, '0.0.0.0');
