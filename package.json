@@ -1,6 +1,6 @@
 {
   "name": "instant-mock-rest-api",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "Quick and Easy web API mock server.",
   "main": "bin/instant-mock-rest-api",
   "bin": {

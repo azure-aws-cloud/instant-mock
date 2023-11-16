@@ -176,4 +176,4 @@ Run the command `npm run build`
 
 npm login
 
-npm push
+npm publish
