@@ -172,8 +172,12 @@ Web console can change parser, and show mock api access logs.
 
 Modify the app version in package.json
 
+```
 Run the command `npm run build`
 
 npm login
 
 npm publish
+
+```
+
