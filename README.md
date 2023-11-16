@@ -167,3 +167,13 @@ You can open [http://localhost:3000](http://localhost:3000) to view the instant-
 Web console can change parser, and show mock api access logs.
 
 ![Web console](media/web-console.png)
+
+## Publishing a new version to npm repo
+
+Modify the app version in package.json
+
+Run the command npm run build
+
+npm login
+
+npm push
