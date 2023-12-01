@@ -1,14 +1,14 @@
 {
-  "name": "instant-mock",
-  "version": "0.0.7",
+  "name": "instant-mock-rest-api",
+  "version": "10.0.0",
   "description": "Quick and Easy web API mock server.",
-  "main": "bin/instant-mock",
+  "main": "bin/instant-mock-rest-api",
   "bin": {
-    "instant-mock": "bin/instant-mock"
+    "instant-mock-rest-api": "bin/instant-mock-rest-api"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arenahito/instant-mock.git"
+    "url": "git+https://github.com/azure-aws-cloud/instant-mock"
   },
   "keywords": [
     "test",
@@ -26,7 +26,7 @@
     "lint": "eslint src/server/** src/client/** src/common/**",
     "doc": "jsdoc -c conf.json -r -d reports/doc"
   },
-  "author": "Matsuoka Takashi",
+  "author": "ABC",
   "license": "MIT",
   "ava": {
     "files": [
@@ -58,7 +58,8 @@
   },
   "dependencies": {
     "body-parser": "^1.17.0",
-    "commander": "^2.9.0",
+    "commander": "^2.20.3",
+    "cors": "^2.8.5",
     "express": "^4.15.1",
     "fs-promise": "^2.0.0",
     "glob": "^7.1.1",
